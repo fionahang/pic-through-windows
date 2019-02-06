@@ -9,11 +9,6 @@
     column-gap: 0; 
     width: calc(var(--custom-width)*5);
 }
-  
-.grid img {
-    /* width: 100% !important;
-    height: auto !important; */
-}
 
 @media (max-width: 920px) {
     .grid {
@@ -27,15 +22,14 @@
         width: calc(var(--custom-width)*3);
     }
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .grid {
         column-count: 2;
         width: calc(var(--custom-width)*2);
     }
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .grid {
-        column-count: 1;
-        width: var(--custom-width);
+        width: 230px;
     }
 }

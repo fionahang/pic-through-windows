@@ -31,3 +31,10 @@ ul, li {
   justify-content: center;
   flex-basis: 0;
 }
+
+@media (max-width: 700px) {
+  .header {
+    font-size: 1em;
+  }
+}
+

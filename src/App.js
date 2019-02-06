@@ -18,10 +18,10 @@ class App extends Component {
 
   componentDidMount() {
     const NUM_ITEMS_TO_GENERATE = 60;
-    const NUM_IMAGES_AVAILABLE = 64; 
+    const NUM_IMAGES_AVAILABLE = 788; 
     const IMAGE_WIDTH = 600;
     const IMAGE_HEIGHT = 600; 
-    const COLLECTION_ID = 3335442;
+    const COLLECTION_ID = 2254180;
 
     for(let i = 0; i < NUM_ITEMS_TO_GENERATE; i++){
       let randomNumber = Math.floor(Math.random() * NUM_IMAGES_AVAILABLE);

@@ -1,0 +1,41 @@
+:root {
+    --custom-width: 139.28px;
+}
+
+.grid {
+    background-color: white;
+    line-height: 0;
+    column-count: 5;
+    column-gap: 0; 
+    width: calc(var(--custom-width)*5);
+}
+  
+.grid img {
+    /* width: 100% !important;
+    height: auto !important; */
+}
+
+@media (max-width: 920px) {
+    .grid {
+        column-count: 4;
+        width: calc(var(--custom-width)*4);
+    }
+}
+@media (max-width: 700px) {
+    .grid {
+        column-count: 3;
+        width: calc(var(--custom-width)*3);
+    }
+}
+@media (max-width: 500px) {
+    .grid {
+        column-count: 2;
+        width: calc(var(--custom-width)*2);
+    }
+}
+@media (max-width: 400px) {
+    .grid {
+        column-count: 1;
+        width: var(--custom-width);
+    }
+}
